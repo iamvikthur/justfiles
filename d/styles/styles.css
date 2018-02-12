@@ -1,0 +1,264 @@
+body{
+	background: #d3d3d3;
+}
+.spin{
+	width: 200px;
+	height: 200px;
+	border: 3px solid #ccc;
+	border-top-color: #ccc;
+	line-height: 200px;
+	border-radius: 100%;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 150px;
+	animation: speen 3s linear infinite;
+}
+@keyframes speen{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+.upwindow{
+	background: white;
+	height: 50px;
+	line-height: 50px;
+	text-transform: capitalize;
+	margin-right: -17px;
+	margin-left: -15px;
+}
+.dragNdrop.ondragover{
+	border: 2px dashed #000;
+	color: #000;
+	background: #ccc;
+}
+.dragNdrop{
+	width: 580px;
+	height: 200px;
+	background: white;
+	border: 2px dashed #ccc;
+	margin-top: 40px;
+	margin-left: -12.5px;
+	line-height: 200px;
+	text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #ccc;
+}
+#hubLink{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Devine;
+	font-style: Wide Italic;
+}
+input#upw{
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.someInfo{
+	width: 200px;
+	float: right;
+}
+#user_list_dropdown{
+	width: 30px;
+}
+#latestUploaddate{
+	display: none;
+	color: #ccc;
+	margin-left: -20px;
+}
+#lastdownloaddate{
+	display: none;
+	margin-left: -20px;
+	color: #ccc;
+}
+#defaultContentList{
+	list-style: none;
+}
+#other_info{
+	width: 130px;
+}
+#file_info{
+	font-size: 8px;
+	color: #ccc;
+}
+.bestForYou{
+	margin-bottom: -30px;
+}
+#defaultContentListLi{
+    margin-top: 40px;
+}
+#file_name{
+	width: 100px;
+	font-size: 10px;
+	text-overflow: scroll;
+}
+.tab-content ul{
+	display: inline-block;
+}
+#someInfoList{
+	margin-top: -10px;
+	margin-left: -20px;
+	font-family: Basque;
+	cursor: pointer;
+}
+#someInfoList li {
+	list-style: none;
+	padding-bottom: 10px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+#someInfoList li a{
+	font-size: 10px;
+}
+#list_dropdown{
+	width: 180px;
+	font-family: Black-Chance;
+}
+#ul_dropdown li a{
+	padding: 15px;
+	font-family: Basque;
+	font-size: 16px;
+	font-weight: bold;
+}
+#hubMediaName{
+	position: absolute;
+	text-align: center;
+	width: 700px;
+	color: #337ab7;
+	font-size: 16px;
+	font-weight: bolder;
+	background: white;
+	opacity: 0.5;
+}
+.urHubLink{
+	width: 580px;
+	margin-left: -12.5px;
+	height: 40px;
+	margin-top: 20px;
+}
+#hubLogo{
+	width: 580px;
+    height: 250px;
+    margin-left: -12.5px;
+    margin-top: 2px;
+}
+#hubLg{
+	width: 700px;
+    height: 250px;
+    float: left;
+    margin-top: 5px;
+}
+#videoFile{
+	margin-bottom: 20px;
+}
+ul.listFiles li{
+	list-style: none;
+}
+ul.listInfo li{
+	list-style: none;
+}
+ul#nestedFileListR li{
+     list-style: none;
+     padding-bottom: 20px;
+}
+ul#nestedFileList li{
+     list-style: none;
+     padding-bottom: 20px;
+}
+ul#nestedInfoList li a{
+	text-transform: capitalize;
+     padding-bottom: 20px;
+}
+ul.info li{
+	list-style: none;
+}
+ul#nestedInfoList li{
+     list-style: none;
+     padding-bottom: 20px;
+     text-transform: capitalize;
+}
+ul.listOthers{
+	list-style: none;
+}
+ul#nestedOthersList li{
+	list-style: none;
+	padding-bottom: 20px;
+}
+ul#nestedOthersList li a{
+	font-family: DoctorEye;
+	text-transform: uppercase;
+     padding-bottom: 20px;
+     font-size: 16px;
+     font-stretch: 9em;
+}
+ul#nestedFileListR li a{
+	font-family: DoctorEye;
+	text-transform: uppercase;
+     padding-bottom: 20px;
+     font-size: 16px;
+}
+ul#nestedFileList li a{
+	font-family: DoctorEye;
+	text-transform: uppercase;
+     padding-bottom: 20px;
+     font-size: 16px;
+     letter-spacing: 7px;
+}
+ul.modes li{
+     display: inline-block;
+}
+.active a{
+	background: #9900ff;
+	color: white;
+	font-weight: bold;
+}
+ul.modes li a{
+	padding: 10px;
+}
+.rightSide{
+	width: 323px;
+	height: 50px;
+}
+#listMain li{
+  list-style: none;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-family: Basque;
+  font-size: 16px;
+}
+.h4{
+	font-family: DoctorEye;
+}
+#row1{
+	margin-bottom: 1px;
+}
+#leftSideBar{
+	background: #ffffff;
+	margin-right: 1px;
+	min-height: 900px
+}
+#centerWindow{
+	background: #ffffff;
+	min-height: 900px
+}
+.sidebar{
+	background: #ffffff;
+	min-height: 500px;
+}
+.userPage{
+	background: #ffffff;
+	border-left: 1px solid #ccc; 
+	margin-right: -200px !important;
+	
+}
+#rightSideBar{
+	background: #ffffff;
+	margin-left: 1px;
+	margin-right: -50px;
+	min-height: 900px
+}

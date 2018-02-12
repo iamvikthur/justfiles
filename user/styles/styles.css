@@ -1,0 +1,8 @@
+input#domain{
+	text-transform: capitalize;
+	text-align: center;
+}
+#loadCreatedDomains a{
+   text-transform: capitalize;
+   text-align: center;
+}
